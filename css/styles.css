@@ -1,12 +1,56 @@
 :root {
-  --primary-color: rgba(0, 255, 255, 0.555);
+  --primary-color: #f9f6f7;
+  --secondary-color: #ff971d;
+  --tertiary-color: #ffe8d6;
+  --primary-font: "Comfortaa", cursive;
 }
 
 body {
   background: var(--primary-color);
+  margin: 0 auto;
   text-align: center;
+  color: var(--secondary-color);
+}
+
+.centre {
+  padding: 70px;
 }
 
 h1 {
   font-family: Arial;
+}
+
+.main-title {
+  font-family: var(--primary-font);
+  font-size: 70px;
+  font-style: bold;
+}
+
+.navbar-brand {
+  color: var(--secondary-color);
+}
+
+.nav-item {
+  color: var(--secondary-color);
+}
+
+button {
+  background: var(--secondary-color);
+  border-color: var(--secondary-color);
+  border-radius: 5px;
+  width: 300px;
+  color: var(--primary-color);
+  margin: 1;
+  padding: 15px 20px;
+  font-size: 25px;
+}
+
+.start {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.start:hover {
+  color: var(--primary-color);
+  text-decoration: none;
 }
