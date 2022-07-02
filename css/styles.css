@@ -34,23 +34,47 @@ h1 {
   color: var(--secondary-color);
 }
 
-button {
+.btn-branding {
   background: var(--secondary-color);
-  border-color: var(--secondary-color);
-  border-radius: 5px;
-  width: 300px;
+  border-radius: 4px;
   color: var(--primary-color);
-  margin: 1;
-  padding: 15px 20px;
-  font-size: 25px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
 
-.start {
-  color: var(--primary-color);
+img {
+  max-width: 250px;
+}
+
+.container {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+.email-link {
+  display: flex;
+  justify-content: center;
+  color: var(--secondary-color);
+  font-size: 28px;
   text-decoration: none;
 }
 
-.start:hover {
-  color: var(--primary-color);
-  text-decoration: none;
+.email-link:hover {
+  text-decoration: underline;
+}
+
+.fa-brands {
+  font-size: 50px;
+}
+
+a {
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
 }
