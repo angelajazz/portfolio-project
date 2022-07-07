@@ -109,3 +109,8 @@ footer .social-links a:hover {
   background: var(--secondary-color);
   transition: all 100ms ease-in-out;
 }
+
+.project-credit {
+  font-size: 15px;
+  color: black;
+}
